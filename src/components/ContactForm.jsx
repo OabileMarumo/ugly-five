@@ -48,7 +48,7 @@ export default function ContactForm() {
   return (
     <div className="contact-container">
       <div className="contact-info">
-        <p>📧 <strong>Email:</strong> <a href="mailto:res@uglyfive.com">info@uglyfive.com</a></p>
+        <p>📧 <strong>Email:</strong> <a href="mailto:res.uglyfive@gmail.com">info@uglyfive.com</a></p>
         <p>📞 <strong>Phone:</strong> <a href="tel:+26777134077">+267 77134077</a> / <a href="tel:+26775048446">+267 75048446</a></p>
         <p>📍 <strong>Location:</strong> Kasane ,Chobe , Botswana</p>
         <p>🕘 <strong>Office Hours:</strong> Mon-Sat 8am-5pm (CAT)</p>
