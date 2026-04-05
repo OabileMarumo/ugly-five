@@ -68,13 +68,13 @@ export default function ContactForm() {
           </div>
           
           <div className="form-group">
-            <label htmlFor="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" />
+            <label htmlFor="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required/>
           </div>
           
           <div className="form-group">
-            <label htmlFor="tour">Preferred Safari Package *</label>
-            <select id="tour" name="tour" required>
+            <label htmlFor="tour">Preferred Safari Package</label>
+            <select id="tour" name="tour">
               <option value="">Select a tour</option>
               <option value="Victoria Falls day trip">Victoria Falls day trip</option>
               <option value="Chobe Day trip Safari">Chobe Day trip Safari</option>
@@ -83,8 +83,8 @@ export default function ContactForm() {
           </div>
           
           <div className="form-group">
-            <label htmlFor="date">Preferred Date</label>
-            <input type="date" id="date" name="date" />
+            <label htmlFor="date">Preferred Date*</label>
+            <input type="date" id="date" name="date"required />
           </div>
           
           <div className="form-group">
