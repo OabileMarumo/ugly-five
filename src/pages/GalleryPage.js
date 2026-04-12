@@ -105,9 +105,9 @@ export default function GalleryPage() {
           className="gallery-grid"
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))",
-            gap: "10px",
-            padding: "16px",
+            gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))",
+            gap: "8px",
+            padding: "12px",
           }}
         >
           {galleryImages.map((image) => (
