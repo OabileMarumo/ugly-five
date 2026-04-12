@@ -41,7 +41,7 @@ export default function App() {
             </section>
 
             <section id="animals">
-              <h2>The Ugly Five Tours And Safari</h2>
+              <h2>The Ugly Five Tours And Safari Tours And Safari</h2>
               <div className="cards">
                 {animals.map((a) => (
                   <AnimalCard key={a.id} animal={a} />
@@ -79,7 +79,7 @@ export default function App() {
       {renderPage()}
       <footer>
         <p>
-          © 2026 The Ugly Five Tours And Safari | Botswana | Chobe National Park Heritage
+          © 2026 The Ugly Five Tours And Tours And Safari | Chobe | Botswana
         </p>
       </footer>
     </>

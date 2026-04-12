@@ -11,7 +11,7 @@ export default function Navbar({ onNavigate }) {
     <header>
       <div className="logo">
         <h1 style={{ cursor: "pointer" }} onClick={(e) => handleNavigation(e, "home")}>
-          The Ugly Five Safari
+          The Ugly Five Tours And Safari
         </h1>
       </div>
       <nav>
