@@ -3,7 +3,7 @@ import { useState } from "react";
 const galleryImages = [
   {
     id: 1,
-    src: "https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&w=1600",
+   // src: "https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&w=1600",
     alt: "African elephants at sunset",
     caption: "Majestic elephants in Chobe",
   },
