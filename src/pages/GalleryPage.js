@@ -134,7 +134,7 @@ export default function GalleryPage() {
                 style={{
                   width: "300px",
                   height: "500px",
-                  objectFit: "cover",
+                 // objectFit: "cover",
                   display: "block",
                   transition: "transform 0.3s ease",
                 }}
