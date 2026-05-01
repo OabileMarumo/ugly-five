@@ -1,78 +1,30 @@
 import { useState } from "react";
+import IMG_0003 from "./Images/IMG-0003.JPG";
+import IMG_0017 from "./Images/IMG-0017.JPG";
+import IMG_0142 from "./Images/IMG-0142.JPG";
+import IMG_0145 from "./Images/IMG-0145.JPG";
+import IMG_0992 from "./Images/IMG-0992.JPG";
+import IMG_1014 from "./Images/IMG-1014.JPG";
+import IMG_1100 from "./Images/IMG-1100.JPG";
+import IMG_1199 from "./Images/IMG-1199.JPG";
+import IMG_1201 from "./Images/IMG-1201.JPG";
+import IMG_2038 from "./Images/IMG-2038.JPG";
+import IMG_2139 from "./Images/IMG-2139.JPG";
+import IMG_2498 from "./Images/IMG-2498.JPG";
 
-const galleryImages = [
-  {
-    id: 1,
-   // src: "https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "African elephants at sunset",
-    caption: "Majestic elephants in Chobe",
-  },
-  {
-    id: 2,
-    src: "https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Safari vehicle on adventure",
-    caption: "Safari adventure begins",
-  },
-  {
-    id: 3,
-    src: "https://images.pexels.com/photos/2743165/pexels-photo-2743165.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Lions in the wild",
-    caption: "Wildlife encounters",
-  },
-  {
-    id: 4,
-    src: "https://images.pexels.com/photos/1670766/pexels-photo-1670766.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Giraffe in natural habitat",
-    caption: "Gentle giants of Africa",
-  },
-  {
-    id: 5,
-    src: "https://images.pexels.com/photos/247399/pexels-photo-247399.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "River safari scene",
-    caption: "Chobe River cruise",
-  },
-  {
-    id: 6,
-    src: "https://images.pexels.com/photos/1054713/pexels-photo-1054713.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Buffalo herd",
-    caption: "Cape buffalo sighting",
-  },
-  {
-    id: 7,
-    src: "https://images.pexels.com/photos/792386/pexels-photo-792386.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Zebras grazing",
-    caption: "Zebra crossing",
-  },
-  {
-    id: 8,
-    src: "https://images.pexels.com/photos/1670740/pexels-photo-1670740.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Sunset safari",
-    caption: "Golden hour safari",
-  },
-  {
-    id: 9,
-    src: "https://images.pexels.com/photos/3551227/pexels-photo-3551227.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Hippo in water",
-    caption: "Hippo pool encounter",
-  },
-  {
-    id: 10,
-    src: "https://images.pexels.com/photos/1670769/pexels-photo-1670769.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Cheetah resting",
-    caption: "Spotted predator",
-  },
-  {
-    id: 11,
-    src: "https://images.pexels.com/photos/1598377/pexels-photo-1598377.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Safari landscape",
-    caption: "Vast African plains",
-  },
-  {
-    id: 12,
-    src: "https://images.pexels.com/photos/2842486/pexels-photo-2842486.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    alt: "Bird watching safari",
-    caption: "Exotic bird species",
-  },
+export const galleryImages = [
+  { id: "Impala", name: "Impala", src: IMG_0003, alt: "Impala grazing in the grasslands", caption: "Graceful Impala in the wild" },
+  { id: "Warthog", name: "Warthog", src: IMG_0017, alt: "Warthog in the wild", caption: "Playful Warthog in the savanna" },
+  { id: "Elephant bull", name: "Elephant", src: IMG_0142, alt: "Elephant bull", caption: "Majestic Elephant family" },
+  { id: "Swimming Elephants", name: "Swimming Elephants", src: IMG_0145, alt: "Swimming Elephants", caption: "Graceful Elephants in the water" },
+  { id: "Chobe Elephant", name: "Chobe Elephant", src: IMG_0992, alt: "Chobe Elephant", caption: "Gentle Giants of Chobe" },
+  { id: "Crossing the road", name: "crossing the road", src: IMG_1014, alt: "Chobe Elephant", caption: "Gentle Giants of Chobe" },
+  { id: "Lion Feasting", name: "Lion Feasting", src: IMG_1100, alt: "Lion Feasting", caption: "Powerful Lion enjoying a meal" },
+  { id: "baboon", name: "baboon", src: IMG_1199, alt: "baboon", caption: "Curious Baboon in the wild" },
+  { id: "close up of a baboon", name: "close up of a baboon", src: IMG_1201, alt: "close up of a baboon", caption: "Intimate look at a Baboon" },
+  { id: "lioness", name: "lioness", src: IMG_2038, alt: "lioness", caption: "Regal Lioness surveying her territory" },
+  { id: "Cheetah", name: "Cheetah", src: IMG_2139, alt: "Cheetah", caption: "Swift Cheetah on the prowl" },
+  { id: "Front facing elephant", name: "Front facing elephant", src: IMG_2498, alt: "Front facing elephant", caption: "Front facing elephant" },
 ];
 
 export default function GalleryPage() {
