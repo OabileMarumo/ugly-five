@@ -1,4 +1,3 @@
-import { useState } from "react";
 import IMG_0003 from "./Images/IMG-0003.JPG";
 import IMG_0017 from "./Images/IMG-0017.JPG";
 import IMG_0142 from "./Images/IMG-0142.JPG";
