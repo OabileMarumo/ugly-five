@@ -1,18 +1,17 @@
-import IMG_0003 from "./Images/IMG_0003.JPG";
-import IMG_0017 from "./Images/IMG_0017.JPG";
-import IMG_0142 from "./Images/IMG_0142.JPG";
-import IMG_0145 from "./Images/IMG_0145.JPG";
-import IMG_0992 from "./Images/IMG_0992.JPG";
-import IMG_1014 from "./Images/IMG_1014.JPG";
-import IMG_1100 from "./Images/IMG_1100.JPG";
-import IMG_1199 from "./Images/IMG_1199.JPG";
-import IMG_1201 from "./Images/IMG_1201.JPG";
-import IMG_2038 from "./Images/IMG_2038.JPG";
-import IMG_2139 from "./Images/IMG_2139.JPG";
-import IMG_2498 from "./Images/IMG_2498.JPG";
+import IMG_0003 from "./gallery images/IMG_0003.JPG";
+import IMG_0017 from "./gallery images/IMG_0017.JPG";
+import IMG_0142 from "./gallery images/IMG_0142.JPG";
+import IMG_0145 from "./gallery images/IMG_0145.JPG";
+import IMG_0992 from "./gallery images/IMG_0992.JPG";
+import IMG_1014 from "./gallery images/IMG_1014.JPG";
+import IMG_1100 from "./gallery images/IMG_1100.JPG";
+import IMG_1199 from "./gallery images/IMG_1199.JPG";
+import IMG_1201 from "./gallery images/IMG_1201.JPG";
+import IMG_2038 from "./gallery images/IMG_2038.JPG";
+import IMG_2139 from "./gallery images/IMG_2139.JPG";
+import IMG_2498 from "./gallery images/IMG_2498.JPG";
 
 export const galleryImages = [
-  { id: "Impala", name: "Impala", src: IMG_0003, alt: "Impala grazing in the grasslands", caption: "Graceful Impala in the wild" },
   { id: "Warthog", name: "Warthog", src: IMG_0017, alt: "Warthog in the wild", caption: "Playful Warthog in the savanna" },
   { id: "Elephant bull", name: "Elephant", src: IMG_0142, alt: "Elephant bull", caption: "Majestic Elephant family" },
   { id: "Swimming Elephants", name: "Swimming Elephants", src: IMG_0145, alt: "Swimming Elephants", caption: "Graceful Elephants in the water" },
